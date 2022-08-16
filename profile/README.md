@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+This is WPNordic main page, where all of our plugins are saved. 
 <!--
 
 **Here are some ideas to get you started:**
