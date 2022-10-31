@@ -7,26 +7,24 @@
 #
 # Note: if you want to stage/commit WP core files
 # you can delete this whole section/until Configuration.
-/wp-admin/
-/dup-installer/
+wp-admin/
+wp-includes/
+
 wp-content/index.php
 wp-content/languages/
 wp-content/wflogs/
 wp-content/themes/
-wp-includes/
-wp-content/wflogs/config-livewaf.php
-wp-content/wflogs/config-synced.php
 wp-content/wp-rocket-config/
 wp-content/uploads/
 wp-content/upgrade/
-wp-content/backups-dup-lite/
-
-
+wp-content/mu-plugins/
+wp-content/plugins/*
+!wp-content/plugins/adress-search-wc-checkout
 
 # Files
-/.htaccess__75e69e6-14090039
-/brandbyhandsetup_75e69e610a589bdc5113_20220214090039_installer-backup.php
-/dup-wp-config-arc__75e69e6-14090039.txt
+/.htaccess
+/.php-ini
+/.php-version
 /index.php
 /kint.phar
 /licens.html
@@ -35,16 +33,17 @@ wp-content/backups-dup-lite/
 /readme.html
 /wp-activate.php
 /wp-blog-header.php
+/wp-comments-post.php
 /wp-config.php
-/wp-config-sample
-/wp-cron
+/wp-config-sample.php
+/wp-cron.php
 /wp-links-opml.php
 /wp-load.php
 /wp-login.php
 /wp-settings.php
 /wp-signup.php
 /wp-trackback.php
-/wp-*.php
+/wp-mail.php
 /xmlrpc.php
 
 
